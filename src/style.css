@@ -1,1 +1,119 @@
-/* Acá va tu código */
+*{
+	margin: 0;
+	padding: 0;
+}
+#content{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.content-header{
+	text-align: center;
+	height: 90px;
+	padding-top: 25px;
+	background-color: #ffffff;
+	position: fixed;
+	width: 100%;
+	margin-top: -135px;
+	border-bottom: 1px solid #999999;
+}
+
+.content-header h1{
+	font-family: arial;
+	font-size: 55px;
+	color: #666666;
+	font-weight: 500;
+	margin-top: -10px;
+}
+.content-header p{
+	font-size: 15px;
+	font-family: arial;
+	color: #666666;
+
+}
+
+.msg-encode-style{
+	max-width: 48%; 
+	max-height: 20em; 
+	min-height: 20em; 
+	min-width: 48%;
+	margin-top: 10px;
+	float: left;
+}
+
+.box-encode{
+	background-color: #ffffff;
+	border-radius: 10px;
+	padding: 20px;
+	color: #666666;
+	margin-bottom: 15px;
+	border:solid 1px #999999;
+	margin-top: 135px;
+
+}
+.areaMsg{
+	width: 100%;
+
+}
+.areaMsg p{
+	text-align: left;
+	font-family: arial;
+	padding-top: 10px;
+}
+
+.box-select{
+	font-family: arial;
+}
+
+.box-decode{
+	background-color: #ffffff;
+	border-radius:10px;
+	padding: 20px;
+	color: #666666;
+	border:solid 1px #999999;
+	margin-bottom: 20px;
+}
+.st-btn-code{
+	border: 0;
+	width: 200px;
+	height: 50px;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #666666;
+	cursor: pointer;
+	transition: 0.4s ease;
+	margin-top: 10px;
+}
+
+.st-btn-code:hover{
+	background-color: #333333;
+	color: #999999;
+
+
+}
+.title-msg-box{
+	font-size: 25px;
+	margin-top: 1px;
+	font-family: arial;
+	font-weight: 500;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.msg-box-ready-style{
+	float: right;
+	max-width: 48%; 
+	max-height: 20em; 
+	min-height: 20em; 
+	min-width: 48%;
+	margin-top: 10px;
+	border: 1px solid #999999;
+}
+.msg-box-ready-style p{
+	text-align: left;
+	font-family: arial;
+	padding-top: 10px;
+	margin-top: -26px;
+}
+
+

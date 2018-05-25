@@ -1,15 +1,88 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>Caesar Cipher</title>
-  <link rel="stylesheet" href="style.css" />
+	<meta charset="utf-8">
+	<title>Caesar Cipher</title>
+	<link rel="stylesheet" href="style.css" />
 </head>
 <body>
+	<header class="content-header">
+		<h1>Cifrado Cesar</h1>
+		<p><i>Codifica y Decodifica tus mensajes</i></p>
+	</header>
+	<div id="content">
+		<!--CIFRADO-->
+		<section class="box-encode">
+			<h1 class="title-msg-box">Codifica tu mensaje</h1>
+			<div class="box-select">
+				<label>Numero de offset</label>
+				<select>
+					<option>0</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="4">5</option>
+					<option value="4">6</option>
+					<option value="4">7</option>
+					<option value="4">8</option>
+				</select>
+			</div>
+			<div class="areaMsg">
+				<p>Ingresa tu mensaje aqui...</p>
+				<textarea id="msg-encode" class="msg-encode-style" rows="0">
+				</textarea>
+			</div>
+			<!--MENSAJE CODIFICADO-->
+			<section id="content-msg-code" class="content-msg-code-style">
+				<p>Mensaje Codificado</p>
+				<div class="msg-box-ready-style">
+					<p id="msg-encode-ready"></p>
+				</div>
+			</section >
+			<button id="btn-encode" class="st-btn-code">Codificar</button>
+		</section>
+		
+		<!--DECIFRADO-->
+		<section class="box-decode">
+			<h1 class="title-msg-box">Decodificar tu mensaje</h1>
+			<div class="box-select">
+				<label>Numero de offset</label>
+				<select>
+					<option>0</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="4">5</option>
+					<option value="4">6</option>
+					<option value="4">7</option>
+					<option value="4">8</option>
+				</select>
+			</div>
+			<div class="areaMsg">
+				<p>Ingresa tu mensaje aqui...</p>
+				<textarea id="msg-encode" class="msg-encode-style" rows="0">
+				</textarea>
+			</div>
+			<!--MENSAJE CODIFICADO-->
+			<section id="content-msg-code" class="content-msg-code-style">
+				<p>Mensaje Codificado</p>
+				<div class="msg-box-ready-style">
+					<p id="msg-decode-ready"></p>
+				</div>
+			</section>
+			
+			<button id="btn-encode" class="st-btn-code">Decodificar</button>
+		</section>
+		
+		
+	</div>
+	<div id="root"></div>
 
-  <div id="root"></div>
 
-  <script src="cipher.js"></script>
-  <script src="index.js"></script>
+
+	<script src="cipher.js"></script>
+	<script src="index.js"></script>
 </body>
 </html>
