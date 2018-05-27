@@ -7,16 +7,25 @@
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Pacifico" rel="stylesheet">
 </head>
 <body>
+
+	<!--CONTENEDOR DEL CIFRADO-->
 	<section id="content-cipher" class="content">
+		<!--CABECERA-->
 		<header class="content-header">
 			<h1>Cifrado Cesar</h1>
 			<p><i>Codifica y Decodifica tus mensajes</i></p>
 		</header>
+
+		<!--ENLACES CODIFICADO Y DECODIFICADO-->
+
 		<div id="encode-decode" class="link-code">
-			<a href="#">Codificar</a>
-			<a href="#">Decodificar</a>
+			<a href="#" id="link-encode" class="link_active" onclick="linkCod()">Codificar</a>
+			<a href="#" id="link-decode" onclick="linkDecode()">Decodificar</a>
 		</div>
-		<div id="content-msg-encode" class="msg-style">
+
+		<!--CAJA CODIFICADO-->
+
+		<div id="content-msg-encode" class="msg-style display_block">
 			<p>Ingrese Su Mensaje:</p>
 			<textarea id="box-msg-encode" class="box-msg-style" placeholder="Ingrese su mensaje..."></textarea>
 			<div class="content-offset">
@@ -30,8 +39,9 @@
 			
 		</div>
 		
+		<!--CAJA DECODIFICADO-->
 
-		<div id="content-msg-decode" class="msg-style">
+		<div id="content-msg-decode" class="msg-style display_none">
 			<p>Ingrese Su Mensaje:</p>
 			<textarea id="box-msg-decode" class="box-msg-style"  placeholder="Ingrese su mensaje..."></textarea>
 			<div class="content-offset">

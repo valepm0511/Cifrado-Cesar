@@ -71,6 +71,12 @@ body{
 	padding-bottom: 5px;
 }
 
+.link_active{
+	border-bottom: 2px solid #008F99;
+	color: #008F99 !important;
+	padding-bottom: 5px;
+}
+
 .msg-style{
 	width: 100%;
 	margin-top: 20px;
@@ -108,4 +114,16 @@ body{
 	background-color: #DADADA;
 	margin-top: 20px;
 	padding: 10px;
+}
+
+.msg-style p{
+	color: #666;
+}
+
+.display_none{
+	display: none;
+}
+
+.display_block{
+	display: block;
 }
