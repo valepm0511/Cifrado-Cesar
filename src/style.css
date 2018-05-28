@@ -7,8 +7,6 @@ body{
 	background-image: url("img_fondo1.jpg");
 }
 
-
-
 .content-header h1{
 	font-family: 'Pacifico', cursive;
 	font-size: 50px;
@@ -103,8 +101,14 @@ body{
 	margin-top: 10px;
 	color: #fff;
 	font-size: 15px;
-	-webkit-box-shadow: 3px 3px 7px 1px #898989; 
 	box-shadow: 3px 3px 7px 1px #898989;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.btn-code:hover{
+	background-color: #034561;
+	
 }
 
 .msg-ckeck{
@@ -114,6 +118,7 @@ body{
 	background-color: #DADADA;
 	margin-top: 20px;
 	padding: 10px;
+	box-shadow: 2px 2px 10px 1px #898989;
 }
 
 .msg-style p{
