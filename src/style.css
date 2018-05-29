@@ -29,6 +29,7 @@ body{
 	margin-top: 15px;
 	margin-bottom: 15px;
 	background-color: #ffffff;
+	box-shadow: 3px 3px 7px 1px #333;
 }
 
 .n_offset_style{
@@ -58,7 +59,7 @@ body{
 .link-code a{
 	text-decoration:none;
 	text-align: center;
-	color: #333; 
+	color: #333333; 
 	margin-left: 10px;
 	margin-right: 10px;
 }
@@ -67,6 +68,7 @@ body{
 	border-bottom: 2px solid #008F99;
 	color: #008F99;
 	padding-bottom: 5px;
+	transition: 0.3s;
 }
 
 .link_active{
@@ -82,7 +84,7 @@ body{
 
 .msg-style p{
 	font-family: arial;
-	color: #333;
+	color: #333333;
 	margin-bottom: 10px;
 }
 
@@ -103,7 +105,7 @@ body{
 	font-size: 15px;
 	box-shadow: 3px 3px 7px 1px #898989;
 	cursor: pointer;
-	transition: 0.3s;
+	transition: 0.5s;
 }
 
 .btn-code:hover{
