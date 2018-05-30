@@ -1,23 +1,31 @@
 window.cipher = {
 	encode: (offset,string) => {
-		/* Acá va tu código */
 		let msgCipher = "";
-		//for recorre el texto caracter por caracter
-		string = string.toUpperCase();
+		string = string.toLocaleUpperCase();
 		for(let i = 0; i < string.length; i++){
-			//reconoce espacios vacios
-			if(string.charCodeAt(i) == 32){
+			if(string.charCodeAt(i) === 32){
 				msgCipher = " ";
 			}else{
-				let textChar = string.charCodeAt(i) - 65;
-				let charOff = (textChar + parseInt(offset)) % 26;
-				let textOk = charOff + 65;
-				msgCipher += String.fromCharCode(textOk).toLowerCase();
+				let textChar = (string.charCodeAt(i) - 65 + parseInt(offset)) % 26 + 65;
+				msgCipher += String.fromCharCode(textChar).toLowerCase();
 			}
 		}
 		document.getElementById("msg-encode-check").innerHTML = msgCipher;
 	},
-	decode: () => {
-		/* Acá va tu código */
+	decode: (offset,string) => {
+		let msgDecipher = "";
+		string = string.toLocaleUpperCase();
+		for(let i = 0; i < string.length; i++){
+			if(string.charCodeAt(i) === 32){
+				msgDecipher = " ";
+			}else{
+				let textChar = (string.charCodeAt(i) + 65 - parseInt(offset)) % 26 + 65;
+				msgDecipher += String.fromCharCode(textChar).toLowerCase();
+			}
+		}
+		document.getElementById("msg-decode-check").innerHTML = msgDecipher;
 	}
 }
+
+
+

@@ -30,7 +30,6 @@ window.onload = () => {
 		
 		let textEncode = document.getElementById("box-msg-encode").value;
 		let number_offset = document.getElementById("n_offset_e").value;
-		//document.getElementById("msg-encode-check").innerHTML = textEncode;
 		window.cipher.encode(number_offset,textEncode);
 	});
 
@@ -40,8 +39,6 @@ window.onload = () => {
 	btnTextDecode.addEventListener("click",function(){
 		let textDecode = document.getElementById("box-msg-decode").value;
 		let number_offset = document.getElementById("n_offset_d").value;
-		//document.getElementById("msg-decode-check").innerHTML = textDecode;
+		window.cipher.decode(number_offset,textDecode);
 	});
-	
-
 }
