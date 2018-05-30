@@ -31,7 +31,7 @@ window.onload = () => {
 		let textEncode = document.getElementById("box-msg-encode").value;
 		let number_offset = document.getElementById("n_offset_e").value;
 		//document.getElementById("msg-encode-check").innerHTML = textEncode;
-		window.cipher.encode(textEncode,number_offset);
+		window.cipher.encode(number_offset,textEncode);
 	});
 
 	/*rescatando el valor del texto a decodificar*/
