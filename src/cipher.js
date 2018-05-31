@@ -1,5 +1,5 @@
 window.cipher = {
-	encode: (offset,string) => {
+	encode: (string,offset) => {
 		//mensaje recibido
 		let msgCipher = "";
 		//inicio recorrido de caracteres
@@ -11,13 +11,13 @@ window.cipher = {
 				//aplicando formula de cifrado
 				let textChar = (string.charCodeAt(i) - 65 + parseInt(offset)) % 26 + 65;
 				//conviertiendo el texto cifrado en minusculas
-				msgCipher += String.fromCharCode(textChar).toLowerCase();
+				msgCipher+=String.fromCharCode(textChar);
 			}
 		}
 		//retornar respuesta
 		return msgCipher;
 	},
-	decode: (offset,string) => {
+	decode: (string,offset) => {
 		//mensaje recibido
 		let msgDecipher = "";
 		//inicio recorrido de caracteres
@@ -29,7 +29,7 @@ window.cipher = {
 				//aplicando formula de decifrado
 				let textChar = (string.charCodeAt(i) + 65 - parseInt(offset)) % 26 + 65;
 				//conviertiendo el texto decifrado en minusculas
-				msgDecipher += String.fromCharCode(textChar).toLowerCase();
+				msgDecipher += String.fromCharCode(textChar);
 			}
 		}
 		//retornar respuesta

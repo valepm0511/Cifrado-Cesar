@@ -31,7 +31,7 @@ window.onload = () => {
 		let textEncode = document.getElementById("box-msg-encode").value;
 		textEncode = textEncode.toUpperCase();
 		let number_offset = document.getElementById("n_offset_e").value;
-		document.getElementById("msg-encode-check").innerHTML = window.cipher.encode(number_offset,textEncode);
+		document.getElementById("msg-encode-check").innerHTML = window.cipher.encode(textEncode, number_offset);
 	});
 
 	/*rescatando el valor del texto a decodificar*/
@@ -41,6 +41,6 @@ window.onload = () => {
 		let textDecode = document.getElementById("box-msg-decode").value;
 		textDecode = textDecode.toUpperCase();
 		let number_offset = document.getElementById("n_offset_d").value;
-		document.getElementById("msg-decode-check").innerHTML = window.cipher.decode(number_offset,textDecode);
+		document.getElementById("msg-decode-check").innerHTML = window.cipher.decode(textDecode, number_offset);
 	});
 }
