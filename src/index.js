@@ -29,8 +29,9 @@ window.onload = () => {
 	btnTextEncode.addEventListener("click",function(){
 		
 		let textEncode = document.getElementById("box-msg-encode").value;
+		textEncode = textEncode.toUpperCase();
 		let number_offset = document.getElementById("n_offset_e").value;
-		window.cipher.encode(number_offset,textEncode);
+		document.getElementById("msg-encode-check").innerHTML = window.cipher.encode(number_offset,textEncode);
 	});
 
 	/*rescatando el valor del texto a decodificar*/
@@ -38,7 +39,8 @@ window.onload = () => {
 	const btnTextDecode = document.getElementById("btn_decode");
 	btnTextDecode.addEventListener("click",function(){
 		let textDecode = document.getElementById("box-msg-decode").value;
+		textDecode = textDecode.toUpperCase();
 		let number_offset = document.getElementById("n_offset_d").value;
-		window.cipher.decode(number_offset,textDecode);
+		document.getElementById("msg-decode-check").innerHTML = window.cipher.decode(number_offset,textDecode);
 	});
 }
