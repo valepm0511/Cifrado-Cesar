@@ -1,10 +1,10 @@
 window.cipher = {
 	encode: (offset,string) => {
 		let msgCipher = "";
-		string = string.toLocaleUpperCase();
+		string = string.toUpperCase();
 		for(let i = 0; i < string.length; i++){
 			if(string.charCodeAt(i) === 32){
-				msgCipher = " ";
+				msgCipher += " ";
 			}else{
 				let textChar = (string.charCodeAt(i) - 65 + parseInt(offset)) % 26 + 65;
 				msgCipher += String.fromCharCode(textChar).toLowerCase();
@@ -14,10 +14,10 @@ window.cipher = {
 	},
 	decode: (offset,string) => {
 		let msgDecipher = "";
-		string = string.toLocaleUpperCase();
+		string = string.toUpperCase();
 		for(let i = 0; i < string.length; i++){
 			if(string.charCodeAt(i) === 32){
-				msgDecipher = " ";
+				msgDecipher += " ";
 			}else{
 				let textChar = (string.charCodeAt(i) + 65 - parseInt(offset)) % 26 + 65;
 				msgDecipher += String.fromCharCode(textChar).toLowerCase();
