@@ -7,7 +7,6 @@
   <link href="https://fonts.googleapis.com/css?family=Comfortaa|Pacifico" rel="stylesheet">
 </head>
 <body>
-
   <!--CONTENEDOR DEL CIFRADO-->
   <section id="content-cipher" class="content">
     <!--CABECERA-->
@@ -15,18 +14,15 @@
       <h1>Cifrado Cesar</h1>
       <p><i>Codifica y Decodifica tus mensajes</i></p>
     </header>
-
     <!--ENLACES CODIFICADO Y DECODIFICADO-->
-
     <div id="encode-decode" class="link-code">
       <a href="#" id="link-encode" class="link_active">Codificar</a>
       <a href="#" id="link-decode">Decodificar</a>
     </div>
-
     <!--CAJA CODIFICADO-->
-
     <div id="content-msg-encode" class="msg-style display_block">
       <p>Ingrese Su Mensaje:</p>
+      <p class="indication"><i>**nota: no intrese ñ, numeros ni signos de puntuación**</i></p>
       <textarea id="box-msg-encode" class="box-msg-style" placeholder="Ingrese su mensaje..."></textarea>
       <div class="content-offset">
         <label class="label">Ingrese N° de desplazamiento</label>
@@ -38,11 +34,10 @@
       </div>
       <button onclick="location.reload();" class="btn_reload">Limpiar</button>
     </div>
-    
     <!--CAJA DECODIFICADO-->
-
     <div id="content-msg-decode" class="msg-style display_none">
       <p>Ingrese Su Mensaje:</p>
+      <p class="indication"><i>**nota: no intrese ñ, numeros ni signos de puntuación**</i></p>
       <textarea id="box-msg-decode" class="box-msg-style"  placeholder="Ingrese su mensaje..."></textarea>
       <div class="content-offset">
         <label class="label">Ingrese N° de desplazamiento</label>
@@ -55,7 +50,6 @@
       <button onclick="location.reload();" class="btn_reload">Limpiar</button>
     </div>
   </section>
-
   <!--¡¡¡¡¡¡ESTE ARCHIVO NO SE TOCA!!!!!-->
   <div id="root"></div>
   <script src="cipher.js"></script>
