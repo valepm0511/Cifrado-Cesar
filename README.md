@@ -18,14 +18,6 @@ Cifrado Cesar es una app que permite cifrar y descifrar un mensaje con un numero
 
 ![titulo](src/vistaMobile.jpg)
 
-## Prodecimiento
-
-1- aplicar charCodeAt para devolver indice del caracter
-
-2- aplicar String.FromCharCode para devolver el valor del caracter en ASCII
-
-3- aplicar formula "cifrado cesar" en la logica parar que devuelva el texto cifrado/decifrado
-
 
 ## Intrucciónes de uso
 
