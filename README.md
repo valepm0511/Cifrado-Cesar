@@ -1,6 +1,7 @@
 ![titulo](src/tituloReadme.png)
 
 Cifrado Cesar es una app que permite cifrar y descifrar un mensaje con un numero de desplazamiento a elección.
+Proyecto realizado para Laboratoria.
 
 ## Tecnología usada
 
