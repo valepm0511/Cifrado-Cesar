@@ -23,7 +23,7 @@ Cifrado Cesar es una app que permite cifrar y descifrar un mensaje con un numero
 
 ### Para Cifrar:
 
-* ingresar texto a cifrar (no escribir Ñ, numeros ni signos de puntuación).
+* ingresar texto a cifrar.
 
 * elegir un offset de desplazamiento.
 
