@@ -1,23 +1,22 @@
-# Cifrado César
+![titulo](src/tituloReadme.png)
 
-Cifrado Cesar es una app que permite cifrar un mensaje con un numero de desplazamiento a elección y decifrar con el mismo numero de cifrado 😎.
+Cifrado Cesar es una app que permite cifrar y descifrar un mensaje con un numero de desplazamiento a elección.
 
-## Objetivo
+## Tecnología usada
 
-Crear una estructura en HTML y CSS con una Logica en JS que permita cifrar un mensaje con un offset y que devuelva el resultado en pantalla y que a su vez permita decifrar el mismo mensaje con el mismo offset. 
+* HTML5
+* CSS
+* Javascript ECMA6
 
-## Requerimientos
+## Vistas
 
-* Hacer uso de "let", "const" y "arrow function".
+* versión desktop
 
-* No utilizar framework.
+![titulo](src/vistaDesktop.jpg)
 
-* No utilizar pseudo-variable "This".
+* versión mobile
 
-* Implementar el codigo en los archivos correspondiente ("index.html = estructura app","style.css = estilo app","index.js = logica manejo del DOM","cipher.js = logica del cifrado").
-
-* pasar los 5 Test (npm test).
-
+![titulo](src/vistaMobile.jpg)
 
 ## Prodecimiento
 
@@ -30,12 +29,7 @@ Crear una estructura en HTML y CSS con una Logica en JS que permita cifrar un me
 
 ## Intrucciónes de uso
 
-1- clonar repositorio "scl-2018-05-bc-core-am" ingresa [Aquí] https://github.com/valepm0511/scl-2018-05-bc-core-am
-
-2- abrir el archivo index.html la ruta "scl-2018-05-bc-core-am/src/index.html"
-
-
-##Para Cifrar:
+### Para Cifrar:
 
 * ingresar texto a cifrar (no escribir Ñ, numeros ni signos de puntuación).
 
@@ -48,7 +42,7 @@ Crear una estructura en HTML y CSS con una Logica en JS que permita cifrar un me
 * oprime boton "limpiar" para refrescar y volver a utilizar.
 
 
-**Para Decifrar**:
+### Para Decifrar:
 
 * ingresar texto a decifrar.
 
@@ -60,6 +54,9 @@ Crear una estructura en HTML y CSS con una Logica en JS que permita cifrar un me
 
 * oprime boton "limpiar" para refrescar y volver a utilizar.
 
+## Enlace Deploy
+
+https://valepm0511.github.io/Cifrado-Cesar/
 
 
 
