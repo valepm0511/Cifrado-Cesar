@@ -10,11 +10,11 @@ Cifrado Cesar es una app que permite cifrar y descifrar un mensaje con un numero
 
 ## Vistas
 
-* versión desktop
+### versión desktop
 
 ![titulo](src/vistaDesktop.jpg)
 
-* versión mobile
+### versión mobile
 
 ![titulo](src/vistaMobile.jpg)
 
