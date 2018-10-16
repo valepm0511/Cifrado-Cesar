@@ -13,7 +13,7 @@ Proyecto realizado para Laboratoria.
 
 ### versión desktop
 
-![titulo](src/vistaDesktop.jpg)
+![image](https://user-images.githubusercontent.com/38740899/47042484-bf850980-d161-11e8-96ea-3f61383fa37a.png)
 
 ### versión mobile
 
