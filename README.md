@@ -17,7 +17,7 @@ Proyecto realizado para Laboratoria.
 
 ### versión mobile
 
-![titulo](src/vistaMobile.jpg)
+![image](https://user-images.githubusercontent.com/38740899/47042550-ee02e480-d161-11e8-85e3-5bc1dfa60883.png)
 
 
 ## Intrucciónes de uso
